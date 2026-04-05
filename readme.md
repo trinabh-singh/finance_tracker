@@ -34,35 +34,53 @@ The backend allows users to manage financial records such as income and expenses
 ---
 
 📁 Project Structure
+
 bash
+
 finance_tracker/
-│
+
 ├── main.py
+
 ├── database.py
+
 ├── models.py
+
 ├── schemas.py
+
 ├── services.py
+
 ├── requirements.txt
+
 └── README.md
 
 Setup Instrustions 
 
 1 Open the project 
-bash
-cd finance_tracker
+
+--bash
+
+--cd finance_tracker
 
 2 Create Virtual Environment 
-bash
-python -m venv venv
+
+--bash
+
+--python -m venv venv
 
 3 Activate Environment 
-bash
-venv/Scripts/activate
+
+--bash
+
+--venv/Scripts/activate
 
 4 Install Dependencies
-bash
-pip install -r requirements.txt
+
+--bash
+
+--pip install -r requirements.txt
 
 5 Run FastApi Server
-bash
-uvicorn main:app --reload
+
+--bash
+
+--uvicorn main:app --reload
